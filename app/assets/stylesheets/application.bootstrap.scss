@@ -1,13 +1,20 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-/* 🎨 Estilo inspirado en Splatoon */
+
 body {
     background: linear-gradient(45deg, #ff00ff, #00ff99, #ffcc00, #0099ff);
     background-size: 400% 400%;
     animation: gradientBG 10s infinite alternate;
-    color: white;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Bungee', sans-serif;
+    color: black;  
+  }
+
+  p, h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: black;
   }
   
   @keyframes gradientBG {
@@ -59,3 +66,34 @@ body {
     border-top: 4px solid #00ff99;
   }
   
+  .custom-badge-pink {
+    background-color: #ff4da6;
+    color: white;
+  }
+
+  .custom-badge-green {
+    background-color: #39ff14;
+    color: black;
+  }
+
+  .custom-badge-orange {
+    background-color: #ff9100;
+    color: white;
+  }
+
+  .custom-badge-blue {
+    background-color: #260fd0;
+    color: white;
+  }
+ 
+  .custom-badge-yellow {
+    background-color: #f4ff29;
+    color: black;
+  }
+
+  .custom-badge-violet {
+    background-color: #793fff;
+    color: white;
+  }
+
+
